@@ -1,0 +1,29 @@
+body {
+    align-items: center;
+    font-family: sans-serif;
+    background-color:lightblue;
+}
+
+.input {
+    margin: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color:darkcyan;
+}
+
+.login {
+    font-weight: bold;
+    text-align: center;
+}
