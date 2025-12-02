@@ -1,7 +1,7 @@
 body {
-    align-items: center;
+    background-image: url(./background.jpg);
+    background-size: cover;
     font-family: sans-serif;
-    background-color:lightblue;
 }
 
 .input {
@@ -11,19 +11,33 @@ body {
     padding-right: 15px;
     border: none;
     border-radius: 5px;
+    background-color:whitesmoke;
 }
 
 button {
     margin: 10px;
     padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     border: none;
     border-radius: 5px;
-    background-color:darkcyan;
+    background-color:cadetblue;
+    margin-bottom: 30px;
 }
 
 .login {
     font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contenedor {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
     text-align: center;
 }
