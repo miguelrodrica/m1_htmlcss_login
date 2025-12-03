@@ -23,6 +23,23 @@ button {
     border-radius: 5px;
     background-color:cadetblue;
     margin-bottom: 30px;
+    transition: .3s ease;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+    transform: scale(1.08);
+}
+
+.forget {
+    transition: .3s ease;
+}
+
+.forget:hover {
+    cursor: pointer;
+    color: cadetblue;
+    transform: scale(1.08);
 }
 
 .login {
